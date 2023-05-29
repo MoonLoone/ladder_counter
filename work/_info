@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/moonlight/intelFPGA/20.1/modelsim_ase/bin
+vdelta
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1685384046
+!i10b 1
+!s100 z6VPTP_zASHTJTdYJ?B7A2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=8`TlRK2O`cGoPCgO:ieA2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 d/home/moonlight/mtica_projects/lab2
+w1685384040
+8/home/moonlight/mtica_projects/lab2/delta.sv
+F/home/moonlight/mtica_projects/lab2/delta.sv
+!i122 1
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1685384046.000000
+!s107 /home/moonlight/mtica_projects/lab2/delta.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab2/delta.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vdelta_tb
+R0
+!s110 1685383923
+!i10b 1
+!s100 8LlPYhZgAbACV:ETVDokd3
+R1
+IB1;VPGlV3LE]Fl>eIa<]R0
+R2
+S1
+R3
+w1685383917
+8/home/moonlight/mtica_projects/lab2/delta_tb.sv
+F/home/moonlight/mtica_projects/lab2/delta_tb.sv
+!i122 0
+L0 1 19
+R4
+r1
+!s85 0
+31
+!s108 1685383923.000000
+!s107 /home/moonlight/mtica_projects/lab2/delta_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab2/delta_tb.sv|
+!i113 1
+R5
+R6

@@ -1,0 +1,7 @@
+module delta(
+input logic [3:0] delta,
+inout logic [3:0] count,
+logic clk, resetn
+);
+
+endmodule

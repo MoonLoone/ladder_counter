@@ -8,13 +8,16 @@ output logic direction
 );
 always_ff @(posedge clk or negedge resetn)
 begin
+logic [2:0] s_delta;
 if (!resetn) begin
+s_delta <= delta;
 current <= 0;
 count <= 0;
 direction <= 1;
 end
-if (direction)
-	if (current == delta) 
+else if (delta >0)
+ if (direction)
+	if (current == s_delta) 
 		begin
 		current <= current - 1;
 		count <= count - 1;
@@ -25,7 +28,9 @@ if (direction)
 		current <= current+1;
 		end
 else if (current == 1) begin
-	count <= count + 1;
+	s_delta <= delta;
+	current <= 1;
+	count <= count+1;
 	direction <= 1;
 	end
 	else begin

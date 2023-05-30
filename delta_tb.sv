@@ -17,14 +17,16 @@ initial forever #10 clk = ~clk;
 
 initial begin
 delta = 3;
-#200 delta = 2;
+#230 delta = 2;
 #200 delta = 7;
 #200 delta = 0;
-#100 $stop;
+#1000 $stop;
 end
 
 initial begin
  #5 resetn = ~resetn;
+ #5 resetn = ~resetn;
+ #500 resetn = ~resetn;
  #5 resetn = ~resetn;
 end
 

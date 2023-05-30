@@ -8,6 +8,7 @@ logic [3:0] current;
 logic direction = 1; 
 
 initial begin
+direction = 0;
 count = 0;
 current = 0;
 end
@@ -16,7 +17,7 @@ initial forever #10 clk = ~clk;
 
 initial begin
 delta = 3;
-#200 delta = 2;
+#230 delta = 2;
 #200 delta = 7;
 #200 delta = 0;
 #100 $stop;
@@ -24,6 +25,8 @@ end
 
 initial begin
  #5 resetn = ~resetn;
+ #5 resetn = ~resetn;
+ #500 resetn = ~resetn;
  #5 resetn = ~resetn;
 end
 

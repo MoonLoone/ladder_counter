@@ -180,3 +180,183 @@ run -all
 # Compile of delta.sv was successful.
 # Compile of delta_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 800 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 710 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 730 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+restart -f
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 1630 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 1630 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(23)
+#    Time: 1630 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 23

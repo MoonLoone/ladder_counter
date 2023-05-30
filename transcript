@@ -1,7 +1,182 @@
 # Loading project delta_project
+# Compile of delta.sv failed with 2 errors.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of delta.sv failed with 2 errors.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 1 failed with 2 errors.
 # Compile of delta.sv failed with 1 errors.
 # Compile of delta_tb.sv was successful.
 # 2 compiles, 1 failed with 1 error.
+# Compile of delta.sv failed with 9 errors.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of delta.sv failed with 10 errors.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 1 failed with 10 errors.
+# Compile of delta.sv failed with 9 errors.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
 # Compile of delta.sv was successful.
 # Compile of delta_tb.sv failed with 1 errors.
 # 2 compiles, 1 failed with 1 error.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.delta_tb
+# vsim work.delta_tb 
+# Start time: 12:55:58 on May 30,2023
+# Loading sv_std.std
+# Loading work.delta_tb
+# Loading work.delta
+add wave -position end sim:/delta_tb/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+restart -f
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+run
+restart -f
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+restart -f
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut_inst'.  Expected 8, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /delta_tb/uut_inst File: /home/moonlight/mtica_projects/lab2/delta_tb.sv Line: 24
+# ** Warning: (vsim-3722) /home/moonlight/mtica_projects/lab2/delta_tb.sv(24): [TFMPC] - Missing connection for port 'count_out'.
+# ** Warning: (vsim-3722) /home/moonlight/mtica_projects/lab2/delta_tb.sv(24): [TFMPC] - Missing connection for port 'current_out'.
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run
+run
+run
+run
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(17)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 17
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.delta_tb
+# Loading work.delta
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab2/delta_tb.sv(22)
+#    Time: 700 ps  Iteration: 0  Instance: /delta_tb
+# Break in Module delta_tb at /home/moonlight/mtica_projects/lab2/delta_tb.sv line 22
+# Compile of delta.sv was successful.
+# Compile of delta_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.

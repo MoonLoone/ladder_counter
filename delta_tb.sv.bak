@@ -1,21 +1,33 @@
 module delta_tb;
 
-logic resetn = 0;
-logic [3:0] delta;
+logic resetn = 1;
+logic [2:0] delta = 0;
 logic clk = 0;
 logic [3:0] count;
- 
+logic [3:0] current;
+logic direction = 1; 
+
+initial begin
+count = 0;
+current = 0;
+end
+
 initial forever #10 clk = ~clk;
 
 initial begin
 delta = 3;
-#60 delta = 2;
-#40 delta = 7;
-#60 delta = 0;
+#200 delta = 2;
+#200 delta = 7;
+#200 delta = 0;
+#100 $stop;
 end
 
-initial #5 resetn = 1;
+initial begin
+ #5 resetn = ~resetn;
+ #5 resetn = ~resetn;
+end
 
-delta init()
+delta uut_inst(.delta(delta), .count(count),
+.current(current),.clk(clk), .resetn(resetn), .direction(direction));
 
 endmodule

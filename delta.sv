@@ -1,14 +1,16 @@
 module delta(
 input logic [2:0] delta,
 output logic [3:0] count,
-output logic [3:0] current,
 input logic clk,
-input logic resetn,
-output logic direction
+input logic resetn
 );
+
+logic [2:0] s_delta;
+logic direction;
+logic [3:0] current;
+
 always_ff @(posedge clk or negedge resetn)
 begin
-logic [2:0] s_delta;
 if (!resetn) begin
 s_delta <= delta;
 current <= 0;
@@ -30,7 +32,7 @@ else if (s_delta >0)
 else if (current == 1) begin
 	s_delta <= delta;
 	current <= 1;
-	count <= count+1;
+	if (delta != 0) count <= count+1;
 	direction <= 1;
 	end
 	else begin
